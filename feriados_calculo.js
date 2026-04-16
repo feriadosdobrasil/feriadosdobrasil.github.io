@@ -606,6 +606,14 @@ const estados = [
     ],
     cidades: [
       {
+        nome: "Açailândia",
+        feriados: [
+          // https://cmacailandia.ma.gov.br/lei/112
+          tercaFeiraDeCarnaval,
+          diaDeCorpusChristi
+        ]
+      },
+      {
         nome: "Imperatriz",
         feriados: [
           // https://novo.imperatriz.ma.gov.br/media/site/download/legislacao/LEI_N%C2%BA_370-85.pdf
@@ -752,6 +760,14 @@ const estados = [
           // https://www.calendariox.com.br/feriados-dourados-ms.html
           diaDeNossaSenhoraDaConceicao,
           aniversarioDaCidade(DEZEMBRO, 20)
+        ]
+      },
+      {
+        nome: "Iguatemi",
+        feriados: [
+          // https://www.mpms.mp.br/feriados/2026
+          aniversarioDaCidade(MAIO, 8),
+          diaDeNossaSenhoraDaConceicao
         ]
       },
       {
@@ -965,6 +981,16 @@ const estados = [
       ff(AGOSTO, 15, "Adesão do Pará à independência do Brasil"),
     ],
     cidades: [
+      {
+        nome: "Altamira",
+        feriados: [
+          // https://altamira.pa.gov.br/feriados/
+          diaDeSaoSebastiao,
+          ff(AGOSTO, 8, "Aniversário do distrito de Castelo de Sonhos"),
+          aniversarioDaCidade(NOVEMBRO, 6),
+          ff(NOVEMBRO, 19, "Aniversário do distrito de Cachoeira da Serra")
+        ]
+      },
       {
         nome: "Ananindeua",
         feriados: [
@@ -1716,6 +1742,27 @@ const estados = [
           aniversarioDaCidade(JUNHO, 1),
           diaDeCorpusChristi,
           diaDeSantAnna
+        ]
+      },
+      {
+        nome: "Xanxerê",
+        feriados: [
+          // https://leismunicipais.com.br/a/sc/x/xanxere/lei-ordinaria/2016/384/3833/lei-ordinaria-n-3833-2016-estipula-os-feriados-municipais-no-municipio-de-xanxere-e-da-outras-providencias
+          aniversarioDaCidade(FEVEREIRO, 27),
+          diaDeCorpusChristi,
+          ff(AGOSTO, 6, "Dia do Senhor Bom Jesus")
+        ],
+        excecoes: [
+          {
+            // https://xanxere.sc.gov.br/uploads/sites/92/2026/02/Decreto-n.-271-2025-Transfere-data-feriado.pdf
+            ano: 2026,
+            removidos: [
+              "Aniversário da cidade"
+            ],
+            adicionados: [
+              ff(MARCO, 6, "Aniversário da cidade<br/>(movido devido à ExpoFemi)")
+            ]
+          }
         ]
       }
     ]

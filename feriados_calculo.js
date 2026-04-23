@@ -259,6 +259,15 @@ const estados = [
           ff(AGOSTO, 27, "Dia de Nossa Senhora dos Prazeres"),
           diaDeNossaSenhoraDaConceicao,
         ]
+      },
+      {
+        nome: "Maragogi",
+        feriados: [
+          // https://diario.maragogi.al.gov.br/documento/view/10113
+          ff(MARCO, 21, "Dia de São Bento"),
+          emancipacaoDoMunicipio(ABRIL, 24),
+          diaDeSantoAntonio
+        ]
       }
     ]
   },
@@ -419,6 +428,15 @@ const estados = [
           diaDeCorpusChristi,
           diaDeSaoJoao,
           diaDeNossaSenhoraDaConceicao,
+        ]
+      },
+      {
+        nome: "Teixeira de Freitas",
+        feriados: [
+          // https://www.teixeiradefreitas.ba.gov.br/feriados-municipais/
+          diaDeCorpusChristi,
+          emancipacaoDoMunicipio(MAIO, 9),
+          diaDeSaoPedro
         ]
       },
       {
@@ -1488,6 +1506,16 @@ const estados = [
           ff(JANEIRO, 6, "Dia de Santos Reis"),
           diaDeCorpusChristi,
           ff(NOVEMBRO, 21, "Dia de Nossa Senhora da Apresentação"),
+        ]
+      },
+      {
+        nome: "Parnamirim",
+        feriados: [
+          // https://antigo.parnamirim.rn.gov.br/pdf/feriados.pdf
+          // https://www.instagram.com/p/DTLQ5U5ADlb/
+          ff(MAIO, 12, "Dia de Nossa Senhora de Fátima"),
+          diaDeCorpusChristi,
+          emancipacaoDoMunicipio(DEZEMBRO, 17)
         ]
       }
     ]

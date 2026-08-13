@@ -7,6 +7,7 @@ RJ / São João de Meriti
 RR / Uiramutã
 SP / Araçatuba
 GO / Trindade --> Festa do Divino Pai Eterno
+GO / Hidrolândia
 
 */
 
@@ -642,6 +643,26 @@ const estados = [
           // https://www.unimed.coop.br/site/web/caldasnovas/feriados-municipais-caldas-novas
           ff(SETEMBRO, 15, "Dia de Nossa Senhora das Dores"),
           aniversarioDaCidade(OUTUBRO, 21)
+        ]
+      },
+      {
+        nome: "Ceres",
+        feriados: [
+          // https://acessoainformacao.ceres.go.leg.br/legislacao/lei/id=256
+          // https://acessoainformacao.ceres.go.leg.br/legislacao/lei/id=1175
+          ff(MARCO, 17, "Dia de São Patrício"),
+          ff(JULHO, 16, "Emancipação política de Rialma"),
+          emancipacaoDoMunicipio(SETEMBRO, 4),
+          diaDeNossaSenhoraDaConceicao
+        ],
+        excecoes: [
+          {
+            // https://ceres.go.gov.br/wp-content/uploads/2021/06/D-267.pdf
+            ano: 2021,
+            adicionados: [          
+              ff(JUNHO, 28, "Falecimento do ex-prefeito Valter Pereira de Melo")
+            ]
+          }
         ]
       },
       {
@@ -1316,6 +1337,26 @@ const estados = [
           diaDeCorpusChristi,
           diaDeSantoAntonio,
           diaDeSaoJoao
+        ]
+      },
+      {
+        nome: "Ipojuca",
+        feriados: [
+          // https://fiepe.org.br/para-sindicato/relacao-de-feriados/
+          emancipacaoDoMunicipio(MARCO, 30),
+          diaDeCorpusChristi,
+          ff(SETEMBRO, 29, "Dia de São Miguel")
+        ]
+      },
+      {
+        nome: "Itamaracá",
+        feriados: [
+          // https://fiepe.org.br/para-sindicato/relacao-de-feriados/
+          ff(FEVEREIRO, 2, "Dia de Nossa Senhora do Pilar"),
+          aniversarioDaCidade(FEVEREIRO, 4),
+          diaDeSaoPedro,
+          diaDeNossaSenhoraDaConceicao,
+          emancipacaoDoMunicipio(DEZEMBRO, 31)
         ]
       },
       {
